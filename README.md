@@ -37,32 +37,7 @@ Installation des dépendances
 bash# Installation de la bibliothèque cryptographique
 pip install cryptography
 
-# Alternative avec requirements.txt (créer le fichier si nécessaire)
-pip install -r requirements.txt
-Vérification de l'installation
-python# Test rapide dans un terminal Python
-python -c "from cryptography.hazmat.primitives.asymmetric import rsa; print('✅ Installation réussie')"
-🚀 Utilisation
-Démarrage rapide (en 3 étapes)
-1️⃣ Cloner ou télécharger le projet
-bashgit clone <url-du-projet>
-cd systeme-pgp
-2️⃣ Démarrer le serveur
-bashpython serveur.py
-Sortie attendue :
-🔐 Système de Communication Sécurisée PGP
-=========================================
-📡 Démarrage du serveur...
-🔐 Serveur PGP initialisé sur localhost:8888
-📋 Clés RSA du serveur générées avec succès
-🔑 Génération des clés RSA du serveur...
-🚀 Serveur PGP en écoute sur localhost:8888
-⏳ En attente de connexions clients...
-💡 Pour tester, exécutez maintenant client.py
-3️⃣ Exécuter le client (dans un nouveau terminal)
-bashpython client.py
-Interface client
-🔐 Système de Communication Sécurisée PGP
+
 =========================================
 📱 Client PGP
 🔐 Client PGP initialisé pour localhost:8888
